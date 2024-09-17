@@ -1,0 +1,22 @@
+{
+  "name": "vite-hbs-tw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.12",
+    "vite": "^5.4.6"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}

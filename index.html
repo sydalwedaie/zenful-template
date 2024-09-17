@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Vite + Handlbars + Tailwind CSS</title>
+  </head>
+  <body class="bg-gray-100">
+    <p>Hello World</p>
+    <ul id="list"></ul>
+
+    <script id="template" type="text/x-handlebars-template">
+      {{#each list}}
+        <li class="p-2">{{this}}</li>
+      {{/each}}
+    </script>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
