@@ -1,13 +1,7 @@
-<!doctype html>
-<html lang="en">
-  {{> headElement title="Zenful Template" }}
-  <body class="bg-gray-100">
-    <h1>{{title}}</h1>
-    <ul>
-      {{#each list}}
-      <li>{{this}}</li>
-      {{/each}}
-    </ul>
-    <script type="module" src="index.js"></script>
-  </body>
-</html>
+{{#> base title="Zenful Template" }} {{> header }}
+<ul class="bg-red-300">
+  {{#each list}}
+  <li>{{this}}</li>
+  {{/each}}
+</ul>
+{{> footer year="2024" }} {{/base }}
