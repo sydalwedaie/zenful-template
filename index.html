@@ -7,14 +7,12 @@
     <title>Vite + Handlbars + Tailwind CSS</title>
   </head>
   <body class="bg-gray-100">
-    <p>Hello World</p>
-    <ul id="list"></ul>
-
-    <script id="template" type="text/x-handlebars-template">
+    <h1>{{title}}</h1>
+    <ul class="m-3">
       {{#each list}}
-        <li class="p-2">{{this}}</li>
+      <li>{{this}}</li>
       {{/each}}
-    </script>
+    </ul>
     <script type="module" src="index.js"></script>
   </body>
 </html>
