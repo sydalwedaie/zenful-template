@@ -1,14 +1,9 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Vite + Handlbars + Tailwind CSS</title>
-  </head>
+  {{> headElement title="Zenful Template" }}
   <body class="bg-gray-100">
     <h1>{{title}}</h1>
-    <ul class="m-3">
+    <ul>
       {{#each list}}
       <li>{{this}}</li>
       {{/each}}
