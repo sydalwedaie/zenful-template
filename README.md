@@ -4,11 +4,11 @@
 
 I wanted to have a template for my practice projects. Specifically, I needed a way to practice Tailwind CSS, but it is tedious to do in a vanilla setting due to the repetitive nature of the unitily classes. Handlebars enables simple templating such as iterators and reusable components. As a bonus, handlebars also helps with seperating data from view, and provides a means of creating reusable layouts.
 
-## Technologies Used
+## The Stack
 
 - [Vite](https://vitejs.dev/guide/)
-- Tailwind CSS, via [Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite)
-- Handlebars, via [vite-plugin-handlebars](https://www.npmjs.com/package/vite-plugin-handlebars). This pluging eliminates the need to manually complile handlebar elements. It lets you to just write handlebars in the `.html` or `.hbs` files.
+- [Tailwind CSS](https://tailwindcss.com/]. I modifed the guide from [Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite) to use it in a vanila project.
+- [Handlebars](https://handlebarsjs.com/). I used [vite-plugin-handlebars](https://www.npmjs.com/package/vite-plugin-handlebars) which eliminates the need to manually complile handlebar elements. It lets you to just write handlebars in the `.html` or `.hbs` files.
 
 ## Syntax Highlighting
 
