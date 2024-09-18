@@ -1,7 +1,19 @@
-{{#> base title="Zenful Template" }} {{> header }}
-<ul class="bg-red-300">
-  {{#each list}}
-  <li>{{this}}</li>
-  {{/each}}
-</ul>
-{{> footer year="2024" }} {{/base }}
+{{#> base }}
+<div class="container mx-auto max-w-[500px] text-center">
+  {{> header }}
+  <p>This template uses the following stack</p>
+  <ul class="py-5">
+    {{#each stack}}
+    <li class="my-1 bg-purple-200 py-1">{{this}}</li>
+    {{/each}}
+  </ul>
+  <p class="my-2">
+    <a
+      class="text-blue-600"
+      href="https://github.com/sydalwedaie/zenful-template"
+      >Learn more</a
+    >
+  </p>
+  {{> footer year="2024" }}
+</div>
+{{/base }}
