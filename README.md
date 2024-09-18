@@ -7,7 +7,7 @@ I wanted to have a template for my practice projects. Specifically, I needed a w
 ## The Stack
 
 - [Vite](https://vitejs.dev/guide/)
-- [Tailwind CSS](https://tailwindcss.com/]. I modifed the guide from [Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite) to use it in a vanila project.
+- [Tailwind CSS](https://tailwindcss.com/). I modifed the guide from [Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite) to use it in a vanila project.
 - [Handlebars](https://handlebarsjs.com/). I used [vite-plugin-handlebars](https://www.npmjs.com/package/vite-plugin-handlebars) which eliminates the need to manually complile handlebar elements. It lets you to just write handlebars in the `.html` or `.hbs` files.
 
 ## Syntax Highlighting
