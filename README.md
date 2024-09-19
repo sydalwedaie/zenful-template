@@ -27,9 +27,9 @@ npm run dev
 
 ## Usage
 
-- Your data lives in `src/data`. It is a JavaScript object that is available to handlebars through the global context set in `vite.config.mjs`. Use `{{[key]}}` to reference the data.
-- The components are handlebars partials in the `src/components` directory. Use `{{> [componentName]}}` to reference them.
-- Layouts are handlebars' _Partial Blocks_ in the `src/layouts` directory. To create a layout, use `{{> @partial-block}}` to act as a placeholder. To use a layout, use `{{#> layout}} content {{/layout}}`[^1].
+- Your data lives in `src/data/index.js`. It is a JavaScript object that is available to handlebars through the global context set in `vite.config.mjs`. Use `{{[key]}}` to reference the data.
+- The components are handlebars _partials_ in the `src/components` directory. Use `{{> [componentName]}}` to reference them.
+- Layouts are handlebars _partial blocks_ in the `src/layouts` directory. To create a layout, use `{{> @partial-block}}` to act as a placeholder. To use a layout, use `{{#> layout}} content {{/layout}}`[^1].
 - You can pass _partial parameters_ to partials in the form of `{{> [partialName] partialParams=[partialParams]}}`.
 
 [^1]: I learned about this behavior in this [post](https://cloudfour.com/thinks/the-hidden-power-of-handlebars-partials/).
