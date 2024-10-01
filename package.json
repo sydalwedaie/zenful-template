@@ -1,6 +1,6 @@
 {
   "name": "zenful-template",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "main": "/src/index.js",
   "scripts": {
     "dev": "vite dev",
@@ -12,6 +12,10 @@
   "author": "Sayed Ali",
   "license": "ISC",
   "description": "A minimal template to get started with practice projects. Configured using Vite, Tailwind CSS, and Handlebars",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sydalwedaie/zenful-template.git"
+  },
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
@@ -21,7 +25,7 @@
     "printWidth": 80,
     "arrowParens": "avoid",
     "bracketSameLine": true,
-    "singleAttributePerLine": false,
+    "singleAttributePerLine": true,
     "plugins": [
       "prettier-plugin-tailwindcss"
     ]
