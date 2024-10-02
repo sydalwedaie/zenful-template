@@ -28,8 +28,8 @@ npm run dev
 ## Usage
 
 - Your data lives in `src/data/index.js`. It is a JavaScript object that is available to handlebars through the global context set in `vite.config.mjs`. Use `{{[key]}}` to reference the data.
+- Layouts are handlebars _partial blocks_ in the `src/layouts` directory. To create a layout, use `{{> @partial-block}}` to act as a placeholder. To use a layout, use `{{#> [layoutName]}} content {{/[layoutName]}}`[^1].
 - The components are handlebars _partials_ in the `src/components` directory. Use `{{> [componentName]}}` to reference them.
-- Layouts are handlebars _partial blocks_ in the `src/layouts` directory. To create a layout, use `{{> @partial-block}}` to act as a placeholder. To use a layout, use `{{#> layout}} content {{/layout}}`[^1].
 - You can pass _partial parameters_ to partials in the form of `{{> [partialName] partialParams=[partialParams]}}`.
 
 ## Custom Helpers
@@ -38,7 +38,7 @@ In Handlebars, you have access to a couple of [built-in helpers](https://handleb
 
 ### Times
 
-`{{#times n}}` repeats a block n times. You can access the current iteration index inside the block using `{{index}}`.
+`{{#times n}}` repeats a block `n` times. You can access the current iteration index inside the block using `{{index}}`.
 
 ```hbs
 {{#times 4}}
